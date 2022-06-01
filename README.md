@@ -23,11 +23,11 @@ For these smaller mistakes I learned to be more careful and deliberate while wor
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-	From this chart ![Theater_Outcomes_vs_Launch](Kickstarter_Analysis/Theater_Outcomes_vs_Launch.png) we are able to see that the greatest amount of successful theater kickstarter campaigns were created in May. I also noticed that May has the greatest amount of failed theater kickstarter campaigns, and the greatest amount of total campaigns as well. 
+	From this chart ![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png) we are able to see that the greatest amount of successful theater kickstarter campaigns were created in May. I also noticed that May has the greatest amount of failed theater kickstarter campaigns, and the greatest amount of total campaigns as well. 
 	From this I would conclude that May has the greatest amount of successful theater campaigns simply because more campaigns are started in May compared to the other months. I don’t believe this gives Louise any guarantee that her kickstarter campaign will be successful based on the month it is created in. We need to consider other factors that could influence the success of her project.
 
 - What can you conclude about the Outcomes based on Goals?
-	By analyzing this data ![Outcomes_vs_Goals](Kickstarter_Analysis/Outcomes_vs_Goals.png) and the resulting chart we can visualize what range of monetary goal has the greatest percentage of successful campaigns. This chart is suggesting that campaigns having a goal less than $1,000 are more likely to be successful than those having higher goals. Those campaigns having a goal between $1,000 and $4,999 have the second highest percentage of success.
+	By analyzing this data ![Outcomes_vs_Goals](Outcomes_vs_Goals.png) and the resulting chart we can visualize what range of monetary goal has the greatest percentage of successful campaigns. This chart is suggesting that campaigns having a goal less than $1,000 are more likely to be successful than those having higher goals. Those campaigns having a goal between $1,000 and $4,999 have the second highest percentage of success.
 	When looking at the graph we can see a positive correlation between the rising monetary goal and higher percentage of failed campaigns. It appears to show that as the goal increases, the campaign is less likely to successfully reach that goal.
 
 - What are some limitations of this dataset?
