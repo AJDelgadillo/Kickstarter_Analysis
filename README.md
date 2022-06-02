@@ -3,20 +3,24 @@
 ## Overview of Project
 
 ### Purpose
-	The purpose of this project is to assist our client, Louise, in launching a successful Kickstarter campaign for her play, "Fever". Louise has a goal of $10,000, which is the budget necessary to create her play. In preparation for her Kickstarter campaign we are analyzing data gathered from other theater campaigns, we studied the goals, pledges, outcomes, and launch dates to find what makes a successful kickstarter campaign. To accomplish this goal we used filters, pivot charts, line graphs, box plots, stacked column charts, and various formulas to help organize, analyze and visualize the data. 
+
+The purpose of this project is to assist our client, Louise, in launching a successful Kickstarter campaign for her play, "Fever". Louise has a goal of $10,000, which is the budget necessary to create her play. In preparation for her Kickstarter campaign we are analyzing data gathered from other theater campaigns, we studied the goals, pledges, outcomes, and launch dates to find what makes a successful kickstarter campaign. To accomplish this goal we used filters, pivot charts, line graphs, box plots, stacked column charts, and various formulas to help organize, analyze and visualize the data. 
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-	The chart titled Theater_Outcomes_vs_Launch.png gives insight on how the success of a kickstarter campaign relates to the launch date of the campaign. The data used for this chart was sourced from the kickstarter sheet and organized into a pivot chart with dates created in the rows category, Outcomes in the columns, and count of the outcomes in the values. The pivot chart can be filtered by parent category and year. 
-	Using this chart we can determine in which month the greatest amount of successful kickstarter campaigns are produced. To make this more useful for Louise we used the filters to focus only on theater campaigns. 
+
+The chart titled Theater_Outcomes_vs_Launch.png gives insight on how the success of a kickstarter campaign relates to the launch date of the campaign. The data used for this chart was sourced from the kickstarter sheet and organized into a pivot chart with dates created in the rows category, Outcomes in the columns, and count of the outcomes in the values. The pivot chart can be filtered by parent category and year. 
+Using this chart we can determine in which month the greatest amount of successful kickstarter campaigns are produced. To make this more useful for Louise we used the filters to focus only on theater campaigns. 
 
 ### Analysis of Outcomes Based on Goals
-	The chart titled Outcomes_vs_Goals.png analyzes the monetary goal of kickstarter campaigns in the subcategory “plays” and determines what percentage of these campaigns are successful, failed, or canceled.
-	The data used for this chart was organized by using the COUNTIFS formula to count only the kickstarter campaigns fulfilling certain criteria of goal, subcategory, and outcome. These values were used to calculate the percentages of successful, failed, and canceled campaigns within those goals. 
+
+The chart titled Outcomes_vs_Goals.png analyzes the monetary goal of kickstarter campaigns in the subcategory “plays” and determines what percentage of these campaigns are successful, failed, or canceled.
+The data used for this chart was organized by using the COUNTIFS formula to count only the kickstarter campaigns fulfilling certain criteria of goal, subcategory, and outcome. These values were used to calculate the percentages of successful, failed, and canceled campaigns within those goals. 
 
 ### Challenges and Difficulties Encountered
-	When working on this challenge I found that it is common to make very small mistakes such as misspelling titles, using the wrong formulas, and selecting incorrect cells when typing out a formula. This was especially difficult for me when using the =COUNTIFS formula for the chart "Outcomes_vs_Goals". I found difficulty making this graph because I needed to cluster multiple datasets and criteria in one formula. 
+
+When working on this challenge I found that it is common to make very small mistakes such as misspelling titles, using the wrong formulas, and selecting incorrect cells when typing out a formula. This was especially difficult for me when using the =COUNTIFS formula for the chart "Outcomes_vs_Goals". I found difficulty making this graph because I needed to cluster multiple datasets and criteria in one formula. 
 For these smaller mistakes I learned to be more careful and deliberate while working. With some practice this process became easier to manage. After successfully applying the formula once it was easier to replicate the same formula for several other criteria, while double checking to make sure I was using the formula correctly. 
 	Secondly, I found some difficulty when creating pivot charts. When I first started on this challenge I didn't understand which field to categorize as the filters, columns, rows and values. This was another issue that was able to work through with some practice. 
 
